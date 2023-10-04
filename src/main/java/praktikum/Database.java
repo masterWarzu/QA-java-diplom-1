@@ -6,12 +6,14 @@ import java.util.List;
 /**
  * Класс с методами по работе с базой данных.
  */
-public class Database {
 
+public class Database
+{
     private final List<Bun> buns = new ArrayList<>();
     private final List<Ingredient> ingredients = new ArrayList<>();
 
-    public Database() {
+    public Database()
+    {
         buns.add(new Bun("black bun", 100));
         buns.add(new Bun("white bun", 200));
         buns.add(new Bun("red bun", 300));
@@ -25,12 +27,13 @@ public class Database {
         ingredients.add(new Ingredient(IngredientType.FILLING, "sausage", 300));
     }
 
-    public List<Bun> availableBuns() {
+    public List<Bun> availableBuns()
+    {
         return buns;
     }
 
-    public List<Ingredient> availableIngredients() {
+    public List<Ingredient> availableIngredients()
+    {
         return ingredients;
     }
-
 }
