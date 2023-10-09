@@ -1,6 +1,7 @@
-package praktikum;
+package ru.yandex.praktikum;
 
 import org.junit.Test;
+import ru.yandex.praktikum.IngredientType;
 
 import static org.junit.Assert.*;
 
